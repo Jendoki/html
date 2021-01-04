@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <ul id="navbar">
+        <li><a href="list.html">Liste des exercices</a></li>
+        <li><a href="index.html">Histoire d'Ishgard</a></li>
+        <li><a href="tab.html">Exercices tableaux</a></li>
+        <li class="active"><a href="form.html">Formulaire</a></li>
+        <li><a href="exo.html">Exos</a></li>
+        <li><a href="display.html">Display</a></li>
+    </ul>
+
+    <div class="container">
+        <table>
+            <form action="mailto:lundoki@gmail.com" method="post">
+                <tr>
+                    <td>
+                        <label for="name">Entrez votre nom :</label>
+                    </td>
+                    <td><input type="text" name="name" id="name" placeholder="Nom Prénom"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mail">Entrez votre adresse email :</label>
+                    </td>
+                    <td>
+                        <input type="email" name="mail" id="mail" placeholder="mail@gmail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="client">Êtes vous déjà client FNAC?</label>
+                    </td>
+                    <td>
+                        <label for="client">Oui</label>
+                        <input type="radio" name="client" id="oui" value="oui" checked>
+                        <label for="client">Non</label>
+                        <input type="radio" name="client" id="non" value="non">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Envoyer">
+                    </td>
+                    <td>
+                        <input type="reset" value="Annuler">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </div>
+    <div class="footer">
+        <p>footer</p>
+    </div>
+</body>
+</html>

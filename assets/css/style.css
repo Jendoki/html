@@ -1,0 +1,176 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    color:midnightblue;
+} 
+
+a {
+    color:slateblue;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightsteelblue;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color:mediumblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: mintcream;
+}
+
+.active {
+    background-color: lightpink;
+}
+
+.container {
+    display: block;
+    margin: 65px;
+}
+
+label {
+    color:darkslateblue
+}
+
+input:hover {
+    background-color: lightcyan;
+}
+
+.footer {
+    background-color: lightsteelblue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 50px;
+    height: 50px;
+}
+
+.footer p {
+    text-align:center;
+}
+
+p.rouge {
+    color: red;
+    font-family: 'Caveat', cursive;
+}
+
+.vert {
+    color: green;
+    font-family: 'Caveat', cursive;
+}
+
+.noir {
+    color: black;
+    font-family: 'Caveat', cursive;
+}
+
+div.code, div.exemple {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ol li {
+    background-color: yellow;
+}
+
+.gradient-vertical
+{
+width:400px;
+height: 200px;
+background: -ms-linear-gradient(left, red, blue);
+background: -moz-linear-gradient(left, red, blue);
+background: -webkit-linear-gradient(left, red, blue);
+}
+
+body {
+    background: -ms-linear-gradient(top left, rgb(42, 200, 248), rgb(28, 2, 141));
+    background: -moz-linear-gradient(top left, rgb(42, 200, 248), rgb(28, 2, 141));
+    background: -webkit-linear-gradient(top left,rgb(42, 200, 248), rgb(28, 2, 141));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.un
+{
+border: 1px solid #ff0000;
+margin: 10px;
+padding: 10px;
+}
+.deux
+{
+border: 1px solid #00ff00;
+margin: 2px;
+padding: 2px;
+}
+.trois
+{
+border: 1px solid #0000ff;
+margin: 10px;
+padding: 10px;
+}
+
+p.col
+{
+display:inline-block;
+text-align:left;
+background:#dce;
+width:150px;
+padding:20px;
+margin: 20px;
+}
+
+header, article, footer, aside {
+    display: block;
+}
+
+header {
+    background-color: red;
+}
+
+article {
+    height: 300px;
+    float: left;
+    background-color: #66FFFF;
+    width:80%;
+}
+
+aside {
+    height: 300px;
+    float:right;
+    width:20%;
+    background-color:yellow;
+}
+
+.conteneur {
+    display: flex;
+    justify-content: space-between;
+}
+
+.enfant {
+    flex-basis: 200px;
+    background-color: yellow; 
+}
+
+footer {
+    clear: both;
+    background-color: #99FF66;
+}

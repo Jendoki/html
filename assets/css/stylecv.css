@@ -1,0 +1,26 @@
+html {
+    font-family: sans-serif;
+}
+
+.entete {
+    background-color:aliceblue;
+    text-align: center;
+    padding: 2% 2%;
+}
+
+.entete p em span {
+    font-weight: bold;
+}
+
+.adresse {
+    text-align: right;
+}
+
+h2 {
+    color:royalblue;
+    background-color:aliceblue;
+}
+
+ul li h3{
+    display: inline;
+}
